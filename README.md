@@ -2,6 +2,9 @@
 
 based on : https://github.com/ayoy/upython-aq-monitor
 
+### Board Supported
+Test on ESP32 (Lolin32 Lite)
+
 ### How to Use
 ```python
 from sht11 import SHT11
