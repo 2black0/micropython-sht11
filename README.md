@@ -2,6 +2,7 @@
 
 based on : https://github.com/ayoy/upython-aq-monitor
 
+### How to Use
 ```python
 from sht1x import SHT1X
 
