@@ -1,7 +1,7 @@
 from machine import Pin
 import utime
 
-class SHT1X:
+class SHT11:
 
     class AckException(Exception):
         pass
