@@ -4,14 +4,14 @@ based on : https://github.com/ayoy/upython-aq-monitor
 
 ### How to Use
 ```python
-from sht1x import SHT1X
+from sht11 import SHT11
 
 #pin sck and data used, change with yours
-sht11 = SHT1X(sck=26, data=33)
+sht = SHT11(sck=26, data=33)
 
 #read temperature and humidity
-tempOut = sht11.temperature()
-humOut = sht11.humidity()
+tempOut = sht.temperature()
+humOut = sht.humidity()
 
 #print temperature and humidity
 print('Temperature: ', tempOut, '*C')
