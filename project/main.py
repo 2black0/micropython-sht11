@@ -1,7 +1,6 @@
 # example code to read SHT11 using MicroPython
 # author : Ardy Seto P
 # email : 2black0@gmail.com
-# web : http://robot-terbang.web.id
 # board Lolin32 Lite (based on ESP32)
 
 from sht11 import SHT11
